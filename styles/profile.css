@@ -1,0 +1,98 @@
+/* Classes */
+
+.classes {
+	display: flex;
+	justify-content: space-between;
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.desk {
+	color: white;
+	align-self: flex-end;
+	width: 380px;
+}
+
+.desk .button {
+	width: 180px;
+}
+
+/* End Classes */
+
+/* Calendar */
+
+.calendar-wrapper {
+	width: 680px;
+	padding: 20px;
+	border-radius: 5px;
+	background: #323232;
+	font-size: 20px;
+}
+
+table {
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #fff;
+  }
+
+td {
+	border-radius: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	width: 80px;
+	transition: transform .1s, .2s;
+}
+
+.month {
+	pointer-events: none;
+}
+
+.days {
+	background: #2b2b2b;
+	pointer-events: none;
+}
+
+td:hover {
+	background-color: #2b2b2b;
+}
+
+thead td {
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+td.not-current {
+	color: #9f9f9f9f;
+}
+
+td.today {
+	color: #fff;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#btnPrev {
+	float: left;
+	margin-bottom: 10px;
+}
+#btnNext {
+	float: right;
+	margin-bottom: 10px;
+}
+#btnPrev,
+#btnNext {
+	padding-top: 20px;
+	font-size: 15px;
+	color: #9f9f9f9f;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+  /* End Calendar */

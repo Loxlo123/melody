@@ -1,0 +1,142 @@
+.reg {
+    width: 580px;
+    margin: 0 auto;
+    background-color: #323232;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 15px 15px 50px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.flexi {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+    
+
+.submit{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.ref {
+    text-decoration: underline;
+}
+
+.ref:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+.window--form{
+    padding: 40px 30px;
+}
+.loginblock__h1{
+    text-align: center;
+    margin-bottom: 24px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+}
+.loginblock__form{
+    padding-top: 36px;
+}
+.formitem{
+    padding-bottom: 24px;
+    position: relative;
+}
+.formitem input{
+    font-family: montserrat;
+    margin: 0 auto;
+    border-radius: 5px;
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: inset 0 0 0 100px #fff;
+    border: 1px solid #DDE0E6;
+    box-sizing: border-box;
+    color: #484c53;
+    font-size: 15px;
+    line-height: 26px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    display: block;
+    width: 450px;
+}
+.loginblock__bottom{
+    padding-bottom: 15px;
+}
+.formcheckbox{
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+.formcheckbox input{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+.formcheckbox:focus-within{
+    outline: 2px dotted #afb3b9;
+    outline-offset:2px;
+}
+.formcheckbox input+span{
+    height: 21px;
+    color: #8F99AA;
+    font-size: 12px;
+    line-height: 21px;
+    position: relative;
+    align-items: center;
+    user-select: none;
+}
+.formcheckbox input:checked + span{
+    color: #2E3C56;
+}
+.checkplace{
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #DDE0E6;
+    box-sizing: border-box;
+    width: 18px;
+    height: 18px;
+    margin-right: 1rem;
+}
+.checkplace img{
+    display: block;
+    max-width: 90%;
+    max-height: 95%;
+    margin: auto;
+    opacity: 0;
+}
+.formcheckbox input:checked + span .checkplace{
+    border-color:#9d9fa3;
+}
+.formcheckbox input:checked + span .checkplace img{
+    opacity: 1;
+}
+.loginblock__link{
+    display: flex;
+    color:#c8c8c8;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.msg {
+    color: rgb(255, 25, 25);
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+}

@@ -1,0 +1,27 @@
+.gallery {
+    margin: 50px auto;
+    width: 1180px;
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-gap: 20px;
+}
+
+.photo {
+    cursor: pointer;
+    border-radius: 5px;
+    background: #000;
+    background-image: url(../images/dickhead.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: 220px;
+    width: 380px;
+}
+
+.photo img{
+    transition: transform .1s, .2s;
+}
+
+.photo img:hover{
+    opacity: .4;
+}
